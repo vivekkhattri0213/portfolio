@@ -15,7 +15,6 @@ export const education = {
 
 export const certifications = [
   { name: 'Certified AI Product Manager', org: 'Product Faculty', date: 'Jan 2025' },
-  ,
   { name: 'SPC (SAFe Program Consultant)', org: 'Scaled Agile, Inc.', date: 'Jan 2018' },
   {
     name: 'Certified SAFe Product Manager / Product Owner',

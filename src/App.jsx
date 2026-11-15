@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import headshot from './assets/vivek-headshot.webp'
 import {
   profile,
   education,
@@ -27,11 +28,6 @@ const stats = [
 ]
 
 const year = new Date().getFullYear()
-
-const initials = profile.name
-  .split(' ')
-  .map((part) => part[0])
-  .join('')
 
 function readTheme() {
   try {
@@ -127,9 +123,7 @@ function App() {
       <header className="site-header">
         <div className="container header-row">
           <a href="#top" className="brand">
-            <span className="brand-mark" aria-hidden="true">
-              {initials}
-            </span>
+            <img className="brand-mark" src={headshot} alt="" aria-hidden="true" />
             {profile.name}
           </a>
           <nav className="site-nav" aria-label="Primary">
@@ -171,8 +165,8 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="hero-avatar" aria-hidden="true">
-              <span>{initials}</span>
+            <div className="hero-avatar">
+              <img src={headshot} alt={profile.name} />
             </div>
           </div>
 
