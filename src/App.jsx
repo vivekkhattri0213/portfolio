@@ -21,7 +21,7 @@ const nav = [
 ]
 
 const stats = [
-  { value: '15+', label: 'Years in product & Agile' },
+  { value: '12+', label: 'Years in product & Agile' },
   { value: '15K+', label: 'LinkedIn followers' },
   { value: String(courses.length), label: 'Udemy courses' },
   { value: String(certifications.length), label: 'Certifications' },
