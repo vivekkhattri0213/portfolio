@@ -3,7 +3,7 @@ export const profile = {
   location: 'Austin, Texas',
   headline: 'Systems Engineer turned Product Leader & Udemy Instructor',
   summary:
-    '14+ years helping teams go from Agile theory to shipped product — and now helping professionals put AI to work in their day-to-day. Founder of Agile Academy; building Claude and AI-automation courses for non-technical teams.',
+    'Vivek has 15+ years of experience helping organizations ship product, and now helps professionals put AI to work in their day-to-day. Founder of Agile Academy; building Claude and AI-automation courses for non-technical teams.',
   linkedin: 'https://www.linkedin.com/in/vivekkhattri',
   company: 'Agile Academy',
   followers: '15K+ followers on LinkedIn',
@@ -15,13 +15,8 @@ export const education = {
 
 export const certifications = [
   { name: 'Certified AI Product Manager', org: 'Product Faculty', date: 'Jan 2025' },
-  { name: 'Agile Team Facilitator', org: 'ICAgile', date: 'Jul 2018' },
+  ,
   { name: 'SPC (SAFe Program Consultant)', org: 'Scaled Agile, Inc.', date: 'Jan 2018' },
-  {
-    name: 'Certified Trainer (Training from the Back of the Room)',
-    org: 'Balanced Agility',
-    date: 'Jun 2017',
-  },
   {
     name: 'Certified SAFe Product Manager / Product Owner',
     org: 'Scaled Agile, Inc.',
