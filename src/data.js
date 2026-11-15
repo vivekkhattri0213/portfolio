@@ -3,7 +3,7 @@ export const profile = {
   location: 'Austin, Texas',
   headline: 'Systems Engineer turned Product Leader & Udemy Instructor',
   summary:
-    'Vivek has 15+ years of experience helping organizations ship product, and now helps professionals put AI to work in their day-to-day. Founder of Agile Academy; building Claude and AI-automation courses for non-technical teams.',
+    'Vivek has 12+ years of experience helping organizations ship product, and now helps professionals put AI to work in their day-to-day. Founder of Agile Academy; building Claude and AI-automation courses for non-technical teams.',
   linkedin: 'https://www.linkedin.com/in/vivekkhattri',
   company: 'Agile Academy',
   followers: '15K+ followers on LinkedIn',
